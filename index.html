@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Cadastro de reserva para hospedagem</h1>
+
+<h2>Nome do reservante</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Primeiro nome:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Sobrenome:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+</form> 
+
+<h2>Reserva do quarto</h2>
+
+<p>Quantas pessoas são?</p>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+<p>Qual quarto?</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Suíte, com vista para o jardim. Com 2 camas de casal</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Suíte master, com vista para a praia. Com 2 quartos com cama de casal</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Quarto moderno, com 3 camas, 1 de casal e ás outras duas de solteiro</label><br><br>
+</form> 
+
+<h2>Qual data da reserva</h2>
+
+<p>Escolha a data de entrada e a de saída.</p>
+
+<form action="/action_page.php">
+  <label for="birthday">Entrada:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <label for="birthday">Saída:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="button" onclick="alert('Sua reserva foi confirmada')" value="Reservar">
+</form>
+
+</body>
+</html>
+
